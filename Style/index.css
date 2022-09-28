@@ -1,0 +1,211 @@
+/*barra de navegação */
+
+body{
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+footer {
+    background-color: rgb(23, 80, 117);
+    width: 100%;
+    height: 10vh;
+    
+}
+   
+
+.page{
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+  
+}
+
+nav {
+    width: 50%;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 15.2061px;
+    transition: ease-in-out 0.3s;
+}
+
+a:hover {
+ color: rgb(182, 209, 130);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.logo {
+    padding-top: 10px;
+	width: 90px;
+    margin-top: 2PX;
+}
+
+.icons{
+
+    width: 50px;
+    margin:auto;
+    padding: 10px;
+    
+}
+.barra {
+    
+    width: 100%;
+    background: #28269269;
+    backdrop-filter: blur(10px);
+    position:absolute;
+    top: 0  ;
+    
+}
+
+.barra-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap-reverse;
+    
+}
+
+.centralizador {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+/* fim da barra de navegação*/
+
+/* criando início */
+html{
+    scroll-behavior: smooth;
+}
+
+
+#inicio {
+    display: block;
+    background:linear-gradient(#0d0d0e69 55.00%,#1b834aec 60.00% );
+    height: 10vh;
+    padding-top: 40px;
+    color: aliceblue;  
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+
+
+.plano{
+    
+    border: solid 2px rgb(230, 230, 231);
+    padding: 5px;
+    width: 75%;
+    height: 60vh;
+    margin: auto;
+    padding: 5px;
+    border: solid, blanchedalmond;
+    background:linear-gradient(#00010a69 20.00%,#300cc2ec 55.00% ,rgb(17, 17, 19) 80.00%);
+    
+    color: rgb(238, 231, 231);
+   
+}
+
+
+.fundo{
+border: #e4e3e9ec;
+text-align:end;
+}
+
+.central{
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+
+}
+
+#botao1{
+    width: 200px;
+    height: 50px;
+
+}
+#botao2{
+    width: 200px;
+    height: 50px;
+}
+
+.ocultar01{
+    display: block;
+}
+/*------plano de fundo8-------*/
+
+.cordefundo2{   
+
+    background:linear-gradient(#30388869 20.00%,#0cc2b9ec 55.00% ,rgb(49, 49, 156) 80.00%);
+   
+}
+.cordefundo3{   
+
+    background:linear-gradient(#00010a69 20.00%,#0cb6c2ec 55.00% ,rgb(17, 17, 19) 80.00%);
+   
+}
+.cordefundo4{   
+
+    background:linear-gradient(#1b1b1b69 15.00%,#0cc215ec 50.00% ,rgb(6, 102, 27) 80.00%);
+   
+}
+.cordefundo5{   
+
+    background:linear-gradient(89deg,#191f1ec7 5.00%,#0cc29bec 25.00% ,#10a383ec 45.00%,#33bdbdec 75.00%,#010708ec 95.00%);
+   
+}
+.cordefundo6{   
+
+    background:linear-gradient(#a54e0769 25.00%,#c20c0ca1 55.00% ,rgb(250, 3, 3) 75.00%);
+   
+}
+.cordefundo7{   
+
+    background:linear-gradient( 45deg,#0e01be 30.00%,#0cc2c2ec 50.00% ,#0659f3ec 60.00%);
+   
+}
+.cordefundo8{   
+
+    background:linear-gradient(#00010a69 20.00%,#c20c0cec 55.00% ,rgb(17, 17, 19) 80.00%);
+   
+}
+
+
+
+
+
+
+
+
+
+
+                                                                                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
